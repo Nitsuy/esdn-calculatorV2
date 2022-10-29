@@ -58,11 +58,11 @@ export default defineComponent({
   <h1 style="font-size: 20px">Emissions for Sustainable Development of Nations Scale (ESDN Scale)</h1>
 
   <div class="calculator"> 
-    <div class="variables">Development</div>
+    <div class="variables">GDP</div>
     <button @click="varDevelop(1)" class="btn">1</button>
     <button @click="varDevelop(2)" class="btn">2</button>
     <button @click="varDevelop(3)" class="btn">3</button>
-    <div class="variables">Greenhouse Gas Emission</div>
+    <div class="variables">CO2 Emissions</div>
     <button @click="varEmissions(1)" class="btn">1</button>
     <button @click="varEmissions(2)" class="btn">2</button>
     <button @click="varEmissions(3)" class="btn">3</button>
@@ -75,14 +75,9 @@ export default defineComponent({
     <button @click="result" class="btn">=</button>
     
   </div>
-<<<<<<< HEAD
-
   <p>
       <code>Select the values for each variable and then click on the "=" button to show the country's climate impact!</code>
     </p>
-=======
-  <h1>ESDN Scale</h1>
->>>>>>> 4c96c84187f5e5312d6eee9c60b65bb5e15dbbc3
 
   <div class="card">
     <button type="button" @click="">The country gets a ranking of: {{ current }}</button>
@@ -92,6 +87,10 @@ export default defineComponent({
   <div>
     <button type="button" @click="">The country is {{ classif }}</button>
   </div>
+
+  <p>
+      <code>Database employed constructed by the delegation of Germany, consult it <a href="https://docs.google.com/spreadsheets/d/1GhTFYoS1-a4TS1edTwrQdQLnZ57bl2DnIjwIm3v0L6M/edit?usp=sharing">here</a></code>
+    </p>
 
   <div>Low Contaminating: 0-3</div>
   <div>Medium Contaminating: 3-6</div>

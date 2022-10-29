@@ -9,6 +9,10 @@ import ExtraMile from './components/ExtraMile.vue'
     <a href="https://venezuela.un.org" target="_blank">
       <img src="/venezuelaFlag.svg" class="logo" alt="Vite logo" />
     </a>
+
+    <a href="https://www.un.org/en/about-us/member-states/germany" target="_blank">
+      <img src="/germanyFlag.svg" class="logo" alt="Vite logo" />
+    </a>
   </div>
   <ExtraMile msg="Emissions for Sustainable Development of Nations Scale (ESDN Scale)" />
 </template>
